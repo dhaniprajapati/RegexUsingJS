@@ -8,3 +8,6 @@ console.log(isValidPin(ValidPin));
 //UC_2- restrict the pin for taking alphabates
 const pin = 'A400088';
 console.log(isValidPin(pin));
+//UC_3- restrict the pin for taking alphabates or special characters at the end
+const InValid= '400088B';
+console.log(isValidPin(InValid));
